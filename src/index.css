@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    .headShop{
+        @apply lg:text-5xl text-4xl font-semibold font-poppins text-gray-800
+    }
+    h1{
+        @apply lg:text-6xl text-5xl font-bold font-poppins text-gray-800
+    }
+    h2{
+        @apply md:text-4xl font-bold font-poppins text-3xl
+    }
+    .navList{
+        @apply text-lg my-auto hover:scale-110 cursor-pointer
+    }
+    .button-outline-purple{
+        @apply border border-purple-500 rounded-full p-2 bg-white text-purple-500
+    }
+    .button-full-purple{
+        @apply border border-transparent rounded-full p-2 bg-gradient-to-tr from-purple-500 to-cyan-500 text-white
+    }
+    .button-outline-cyan{
+        @apply border border-cyan-500 rounded-full p-2 bg-white text-cyan-500
+    }
+    .button-full-cyan{
+        @apply border border-transparent rounded-full p-2 bg-gradient-to-bl from-purple-500 to-cyan-500 text-white
+    }
+    .newList{
+        @apply text-center bg-gradient-to-tr text-lg hover:scale-105 cursor-pointer px-4 hover:from-purple-500/50 rounded-lg hover:text-white hover:to-pink-500/50  
+    }
+    .hamList{
+        @apply border-b-2 pl-6 pb-2
+    } 
+
+}
